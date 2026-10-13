@@ -41,6 +41,7 @@ All files are saved in **the folder you run the script from**, which is normally
 
 | Output | Content |
 |---|---|
+| `occupancy_count.jpeg` | Pie chart of the target class (`Room_Occupancy_Count` distribution) |
 | `eda_outliers.csv` | IQR lower/upper bounds, outlier count and outlier % for each numeric column |
 | `whisker_plot_standardized.jpeg` | Box-and-whisker plot of all continuous sensors after z-score scaling |
 | `correlation_heatmap.jpeg` | Pearson correlation heatmap of the sensors and `Room_Occupancy_Count` |
@@ -49,8 +50,6 @@ Printed to the console only:
 - Descriptive statistics for every column
 - Start and end timestamps, total duration, typical sampling interval and largest gap
 - Features ranked by their correlation with `Room_Occupancy_Count`
-
-Shown only, not saved: the target-class pie chart.
 
 ## Correlation findings
 
