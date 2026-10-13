@@ -26,6 +26,7 @@ plt.legend(
     loc="upper left"
 )
 plt.show()
+plt.savefig("occupancy_count.jpeg", dpi=150)
 print("******************************************")
 print()
 print()
